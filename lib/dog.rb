@@ -59,4 +59,7 @@ class Dog
     breed = row[2]
     self.new(id: id, name: name, breed: breed)
   end
+
+  def self.find_or_create_by
+  end
 end
